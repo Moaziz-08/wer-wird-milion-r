@@ -18,81 +18,81 @@ const moneyLevels = [
 ]
 
 // Default questions
-const defaultQuestions = [
+const coralineQuestions = [
   {
-    question: "Welches dieser Tiere ist ein Säugetier?",
-    answers: ["Krokodil", "Delfin", "Schildkröte", "Hai"],
+    question: "What is the true identity of the 'Other Mother'?",
+    answers: ["The ghost of the house", "The Beldam", "A lonely witch", "Miss Spink's sister"],
     correctAnswer: 1,
   },
   {
-    question: "Welche Farbe hat der Himmel bei klarem Wetter?",
-    answers: ["Grün", "Rot", "Blau", "Gelb"],
+    question: "According to the source, how does Coraline feel at the start of the story?",
+    answers: ["Angry at her parents for moving", "Scared and nervous in a new place", "Lonely and bored", "Happy and excited about the new house"],
     correctAnswer: 2,
   },
   {
-    question: "Wie viele Bundesländer hat Deutschland?",
-    answers: ["14", "15", "16", "17"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Wer schrieb 'Romeo und Julia'?",
-    answers: ["Charles Dickens", "William Shakespeare", "Friedrich Schiller", "Johann Wolfgang von Goethe"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Welches ist das größte Organ des menschlichen Körpers?",
-    answers: ["Leber", "Gehirn", "Haut", "Lunge"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welches chemische Element hat das Symbol 'O'?",
-    answers: ["Osmium", "Sauerstoff", "Gold", "Silber"],
-    correctAnswer: 1,
-  },
-  {
-    question: "Welcher Planet ist der Sonne am nächsten?",
-    answers: ["Venus", "Mars", "Merkur", "Erde"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Wer malte die 'Mona Lisa'?",
-    answers: ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welches Land hat die meisten Einwohner?",
-    answers: ["Indien", "USA", "China", "Russland"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welches dieser Instrumente ist ein Blasinstrument?",
-    answers: ["Geige", "Klavier", "Trompete", "Gitarre"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welcher Ozean liegt zwischen Amerika und Europa?",
-    answers: ["Indischer Ozean", "Pazifischer Ozean", "Atlantischer Ozean", "Arktischer Ozean"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welches dieser Tiere kann fliegen?",
-    answers: ["Pinguin", "Strauß", "Kiwi", "Fledermaus"],
-    correctAnswer: 3,
-  },
-  {
-    question: "Wer war der erste Mensch auf dem Mond?",
-    answers: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
-    correctAnswer: 2,
-  },
-  {
-    question: "Welches dieser Elemente ist ein Edelgas?",
-    answers: ["Helium", "Wasserstoff", "Sauerstoff", "Stickstoff"],
+    question: "What is unique about the cat when it is in the Other World?",
+    answers: ["It can talk", "It can become invisible", "It can fly", "It gets button eyes like the others"],
     correctAnswer: 0,
   },
   {
-    question: "Welche ist die größte Wüste der Welt?",
-    answers: ["Sahara", "Gobi", "Antarktis", "Kalahari"],
+    question: "Which character was created for the movie and is not in the original book?",
+    answers: ["Miss Forcible", "The Cat", "Wybie", "Mr. Bobo"],
     correctAnswer: 2,
+  },
+  {
+    question: "What does the Other Mother want to do to Coraline so she can stay in the Other World forever?",
+    answers: ["Sew buttons into her eyes", "Make her forget her real parents", "Turn her into a doll", "Lock her in a room"],
+    correctAnswer: 0,
+  },
+  {
+    question: "What happens to Coraline's real parents when she refuses the Other Mother's offer?",
+    answers: ["They sell the house and decide to move", "They are kidnapped by the Other Mother", "They go on a long business trip", "They get lost in the overgrown garden"],
+    correctAnswer: 1,
+  },
+  {
+    question: "How is the atmosphere of the Other World described at the very end?",
+    answers: ["Magical and friendly", "Scary and broken", "Dull and still", "Exactly like the real world"],
+    correctAnswer: 1,
+  },
+  {
+    question: "What was Neil Gaiman's main reason for writing the book *Coraline*?",
+    answers: ["It was based on a famous fairy-tale", "He wanted to create a comic book series", "He wanted to write a scary story for his daughter", "It was an idea for a movie screenplay"],
+    correctAnswer: 2,
+  },
+  {
+    question: "Who lives in the ground flat of Coraline's house?",
+    answers: ["The Other Mother", "Her grandmother", "Mr. Bobo", "Miss Spink and Miss Forcible"],
+    correctAnswer: 3,
+  },
+  {
+    question: "What is beyond the house and garden in the Other World?",
+    answers: ["Mist and emptiness", "A dark and scary forest", "A circus run by the Other Mr. Bobo", "A copy of Coraline's old town"],
+    correctAnswer: 0,
+  },
+  {
+    question: "How does Coraline's adventure change her?",
+    answers: ["She wishes she could return to the Other World", "She becomes more mature and confident", "She becomes scared of exploring", "She decides she wants to live alone"],
+    correctAnswer: 1,
+  },
+  {
+    question: "What is the final action Coraline takes to defeat the Beldam for good?",
+    answers: ["She tells her parents and they call the police", "She destroys the little door", "She traps the Beldam's hand in a well", "She asks the ghost children for help"],
+    correctAnswer: 2,
+  },
+  {
+    question: "Which of these is listed as a major theme of the story?",
+    answers: ["The future", "Technology", "Family", "Friendship"],
+    correctAnswer: 2,
+  },
+  {
+    question: "How is Coraline's real mother different from the Other Mother?",
+    answers: ["Her real mother secretly has button eyes", "Her real mother is a better cook", "Her real mother wants Coraline to stay a child forever", "Her real mother shows real but imperfect love"],
+    correctAnswer: 3,
+  },
+  {
+    question: "According to the source, what is a key difference in atmosphere between the book and the movie?",
+    answers: ["The movie is for adults, the book is for young children", "The movie's atmosphere is bright, the book's is dark", "The movie is more serious, the book is more comedic", "The movie has a more American feel, the book has a more British feel"],
+    correctAnswer: 3,
   },
 ]
 
@@ -147,8 +147,8 @@ function initializeQuestionSets() {
     // Create default question set if none exists
     const defaultSet = {
       id: "default",
-      name: "Standard Fragen",
-      questions: defaultQuestions,
+      name: "Coraline Quiz",
+      questions: coralineQuestions,
     }
 
     localStorage.setItem("wwm_question_sets", JSON.stringify([defaultSet]))
@@ -204,4 +204,3 @@ document.addEventListener("DOMContentLoaded", () => {
   `
   document.head.appendChild(style)
 })
-
