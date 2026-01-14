@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
             isAnswerCorrect = null
             fiftyFiftyRemoved = []
             renderQuestion()
-          }, 3000)
+          }, 1000)
         }
       } else {
         playSound("wrong")
@@ -322,11 +322,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Render game over after showing correct answer
         setTimeout(() => {
           renderGameOver()
-        }, 3000)
+        }, 1000)
       }
 
       renderQuestion()
-    }, 3000)
+    }, 1000)
   }
 
   function handleFiftyFifty() {
@@ -527,4 +527,3 @@ document.addEventListener("DOMContentLoaded", () => {
   const toastElList = [].slice.call(document.querySelectorAll(".toast"))
   const toastList = toastElList.map((toastEl) => new bootstrap.Toast(toastEl))
 })
-
