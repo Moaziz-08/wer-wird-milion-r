@@ -322,11 +322,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Render game over after showing correct answer
         setTimeout(() => {
           renderGameOver()
-        }, 1000)
+        }, 100)
       }
 
       renderQuestion()
-    }, 1000)
+    }, 100)
   }
 
   function handleFiftyFifty() {
